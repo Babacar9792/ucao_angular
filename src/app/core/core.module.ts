@@ -2,10 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { CoreRoutingModule } from './core-routing.module';
+import { CoreComponent } from './components/core/core.component';
 
 
 @NgModule({
-  declarations: [],
+  declarations: [
+    CoreComponent
+  ],
   imports: [
     CommonModule,
     CoreRoutingModule
