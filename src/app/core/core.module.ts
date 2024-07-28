@@ -14,4 +14,5 @@ import { CoreComponent } from './components/core/core.component';
     CoreRoutingModule
   ]
 })
+
 export class CoreModule { }

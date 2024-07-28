@@ -7,11 +7,11 @@ const routes: Routes = [
     path : "", 
     component : CoreComponent,
     children : [
-      
+      {
+        path : "operation", loadChildren : ()=> import("../default-crud/default-crud.module").then(m => m.DefaultCrudModule)
+      }
+
     ]
-  },
-  {
-    path : "**", redirectTo  : ""
   }
 ];
 

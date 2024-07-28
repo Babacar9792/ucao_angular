@@ -14,4 +14,8 @@ export class AuthService extends DefaultService {
    return localStorage.getItem("user");
   }
 
+  getToken(){
+    return localStorage.getItem("token");
+  }
+
 }
